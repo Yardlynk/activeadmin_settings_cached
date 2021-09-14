@@ -29,3 +29,5 @@ module ActiveadminSettingsCached
     end
   end
 end
+
+::ActiveAdmin::DSL.send(:include, ::ActiveadminSettingsCached::DSL)
